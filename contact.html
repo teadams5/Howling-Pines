@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Timothy Adams">
+        <meta name="description" content="Experience the thrill of pristine slopes, cozy lodges, and breathtaking mountain views at Howling pines Ski Resort">
+
+        <!-- "https://www.freepik.com/icon/wolf_5810241#fromView=keyword&page=6&position=17&uuid=e8ffd656-9ce2-4b4f-af33-4166941c9386" Icon by Andy Horvath -->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
+
+        <title>Howling Pines Ski Resort | Contact</title>
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <img src="images/swiss-valley.jpg" alt="A scenic valley with a winding river, lush pine trees, and snow-capped mountains." width="1440" height="560">
+            <h1><a href="index.html">Howling Pines Ski Resort</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a class="current" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="contact">
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+            
+            <img src="images/swiss-sunset.jpg" alt="A sunset over a lake with a chalet nestled among pine trees and mountains in the background" width="710" height="270">
+
+            <p>Required fields marked with a <span class="required">*</span></p>
+
+            <form method="post" action="https://wp.zybooks.com/form-viewer.php">
+                <label class="left" for="name">Full Name <span class="required">*</span></label>
+                <input class="left" type="text" id="name" name="name" required>
+
+                <label class="left" for="email">Email Address <span class="required">*</span></label>
+                <input class="left" type="email" id="email" name="email" required>
+
+                <label class="left" for="phone">Phone Number <span class="required">*</span></label>
+                <input class="left" type="tel" id="phone" name="phone" required>
+
+                <fieldset class="right" name="method">
+                    <legend>Preferred Contact Method <span class="required">*</span></legend>
+                    <input type="radio" id="email_address" name="method" value="email_address">
+                    <label for="email_address">Email</label>
+                    <input type="radio" id="phone_number" name="method" value="phone_number">
+                    <label for="phone_number">Phone Number</label>
+                </fieldset>
+
+                <label class="right" for="comments">Comments <span class="required">*</span></label>
+                <textarea class="right" id="comments" name="comments" rows="4" cols="50" required></textarea>
+
+                <input class="right" type="submit" id="my-submit" value="Submit">
+            </form>
+        </main>
+        
+        <footer>
+            <p>Copyright ©2023 - Howling Pines Ski Resort</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
